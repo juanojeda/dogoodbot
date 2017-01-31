@@ -1,8 +1,11 @@
-[ ] install dokku
-
-[ ] Github stuff
-[ ] Slackbot setup
-[ ] Opt-in
-[ ] Points / progress leaderboard
-[ ] Opt-out
-[ ] Proper slack app (nice buttons)
+- ✔ install dokku @done(01-02-2017)
+- ✔ Github stuff @done(01-02-2017)
+- [ ] Slackbot setup
+  - ✔ Create slackbot app @done(01-02-2017)
+  - ✔ Store slackbot secrets for use @done(01-02-2017)
+  - [ ] set up the connection in javascript
+  - [ ] push it to heroku
+- [ ] Opt-in
+- [ ] Points / progress leaderboard
+- [ ] Opt-out
+- [ ] Proper slack app (nice buttons)
