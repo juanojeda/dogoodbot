@@ -1,3 +1,23 @@
+# numerous always-ignore files
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
 # Logs
 logs
 *.log
@@ -38,3 +58,6 @@ jspm_packages
 
 #secret info
 .secrets
+
+#output folder
+public/

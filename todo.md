@@ -7,8 +7,11 @@
   - ✔ Create slackbot app @done(01-02-2017)
   - ✔ Store slackbot secrets for use @done(01-02-2017)
   - [ ] set up the connection in javascript
+    - [ ] foreman scripts and variables
+    - [ ] slack connection code
+    - [ ] slack event listeners
   - [ ] push it to heroku
-  
+
 ### MUST HAVE FEATURES
 - [ ] Opt-in
 - [ ] Points / progress leaderboard

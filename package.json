@@ -3,31 +3,19 @@
   "version": "1.0.0",
   "description": "Micro-actions to reduce the barrier to doing good and making the world a better place.",
   "main": "index.js",
-  "scripts": {
-    "build": "webpack"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juanojeda/dogoodbot.git"
   },
-  "author": "",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/juanojeda/dogoodbot/issues"
-  },
-  "homepage": "https://github.com/juanojeda/dogoodbot#readme",
-  "dependencies": {
-    "async": "^2.1.4",
-    "botkit": "^0.4.10",
-    "foreman": "^2.0.0",
-    "fs": "0.0.1-security",
-    "lodash": "^4.17.4",
-    "path": "^0.12.7"
+  "scripts": {
+    "start": "nf run node public/app.js",
+    "start:dev": "nf run -e .secrets node app/main.js"
   },
   "devDependencies": {
-    "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
-    "scss-loader": "0.0.1",
-    "webpack": "^2.2.1"
+    "foreman": "^2.0.0"
+  },
+  "dependencies": {
+    "async": "^2.1.5",
+    "botkit": "^0.5.1"
   }
 }
